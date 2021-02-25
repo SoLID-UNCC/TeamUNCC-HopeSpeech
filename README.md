@@ -21,7 +21,7 @@ Next, download the following datasets from the organizers [website](https://comp
 
 To replicate the results from scratch, run the Jupyter notebook ``TeamUNCC_Hopespeech_Detection.ipynb`` and it should install the dependencies for you. Follow the prompt for user inputs to select the dataset and whether to include class weights or not. 
 
-We also provide our fine-tuned weights for our experiments here: [https://drive.google.com/drive/folders/1LzOjFLfrxe8u2VujUy8NptCf-MHQMCb6?usp=sharing](https://drive.google.com/drive/folders/1LzOjFLfrxe8u2VujUy8NptCf-MHQMCb6?usp=sharing). Create a folder called `outputs`  in the repo home directory. Next, download and extract the folders into the outputs folder you created.  Run the cells in the Jupyter notebook starting from the *Test Set Predictions* section in the notebook. Change the variable `lang` in the cell below to the downloaded folder name of choice. The folders include all of our experiments mreported in the paper including:
+We also provide our fine-tuned weights for our experiments here: [https://drive.google.com/drive/folders/1LzOjFLfrxe8u2VujUy8NptCf-MHQMCb6?usp=sharing](https://drive.google.com/drive/folders/1LzOjFLfrxe8u2VujUy8NptCf-MHQMCb6?usp=sharing). Create a folder called `outputs`  in the repo home directory. Next, download and extract the folders into the outputs folder you created.  Run the cells in the Jupyter notebook starting from the *Test Set Predictions* section in the notebook. Change the variable `lang` in the cell below to the downloaded folder name of choice. The folders include all of our experiments reported in the paper including:
  - English with class weights
  - English with out class weights
  - Malayalam with class weights
