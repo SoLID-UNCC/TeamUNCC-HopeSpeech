@@ -5,7 +5,9 @@
  ## Overview
 The repository contains our submission for Task  2:    Hope  Speech  Detection  for  Equality,  Diversity  and  Inclusion at  [LT-EDI-2021@EACL2021](https://sites.google.com/view/lt-edi-2021). The  goal  of this  task  is  to  predict  the  presence  of  hopespeech,  along  with  the  presence  of  samples that  do  not  belong  to  the  same  language  in the dataset. Our approach  fine-tunes  RoBERTa  for  Hope  Speech  detection in  English  and we fine-tune XLM-RoBERTa for Hope Speech detection in Tamil  and  Malayalam,  two  low  resource  Indic  languages. We  demonstrate  the  perfor-mance  of  our  approach  on  classifying  text into hope-speech, non-hope and not-language.  Amongst around 31 teams, our approach ranked 1st in English (F1 = 0.93), 1st in Tamil (F1 = 0.61) and 3rd in Malayalam (F1 = 0.83).
 
-## Setup
+**UPDATE:** Our paper is published at EACL 2021! You can view our paper here: [https://www.aclweb.org/anthology/2021.ltedi-1.20.pdf](https://www.aclweb.org/anthology/2021.ltedi-1.20.pdf)
+
+## Setup Instructions
 
 Clone the repository using the following command ``git clone https://github.com/SoLID-UNCC/TeamUNCC-HopeSpeech.git``
 
