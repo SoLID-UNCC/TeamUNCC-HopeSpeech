@@ -43,13 +43,19 @@ Please consider citing our paper
 ####
 
 ```
-@inproceedings{mahajan2021TeamUNCC,
-  title={TeamUNCC@LT-EDI-EACL2021:Hope Speech Detection using Transfer Learning with Transformers},
-  author={Mahajan, Khyati and Al-Hossami, Erfan and Shaikh, Samira},
-  booktitle={Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion},
-  month = April,
-  year={2021 (in press)},
-  publisher="Association for Computational Linguistics"
+@inproceedings{mahajan-etal-2021-teamuncc,
+    title = "{T}eam{UNCC}@{LT}-{EDI}-{EACL}2021: Hope Speech Detection using Transfer Learning with Transformers",
+    author = "Mahajan, Khyati  and
+      Al-Hossami, Erfan  and
+      Shaikh, Samira",
+    booktitle = "Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion",
+    month = apr,
+    year = "2021",
+    address = "Kyiv",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.ltedi-1.20",
+    pages = "136--142",
+    abstract = "In this paper, we describe our approach towards utilizing pre-trained models for the task of hope speech detection. We participated in Task 2: Hope Speech Detection for Equality, Diversity and Inclusion at LT-EDI-2021 @ EACL2021. The goal of this task is to predict the presence of hope speech, along with the presence of samples that do not belong to the same language in the dataset. We describe our approach to fine-tuning RoBERTa for Hope Speech detection in English and our approach to fine-tuning XLM-RoBERTa for Hope Speech detection in Tamil and Malayalam, two low resource Indic languages. We demonstrate the performance of our approach on classifying text into hope-speech, non-hope and not-language. Our approach ranked 1st in English (F1 = 0.93), 1st in Tamil (F1 = 0.61) and 3rd in Malayalam (F1 = 0.83).",
 }
 ```
 
