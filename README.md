@@ -64,19 +64,15 @@ Please consider citing our paper
 
 To cite the dataset use the following:
 ```
-@proceedings{ltedi-2021-language,
-    title = "Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion",
-    editor = "Chakravarthi, Bharathi Raja  and
-      McCrae, John P.  and
-      Zarrouk, Manel  and
-      Bali, Kalika  and
-      Buitelaar, Paul",
-    month = apr,
-    year = "2021",
-    address = "Kyiv",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.ltedi-1.0",
-}
+@inproceedings{dravidianhopespeech-eacl,
+title={Findings of the Shared Task on {H}ope {S}peech {D}etection for {E}quality, {D}iversity, and {I}nclusion},
+author={Chakravarthi, Bharathi Raja and
+Muralidaran, Vigneshwaran},
+booktitle = "Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion",
+month = April,
+year = "2021",
+publisher = "Association for Computational Linguistics",
+year={2021}
 ```
 
 ## Contact
